@@ -18,7 +18,9 @@ export default function TabOneScreen() {
     if (random > 0.5) {
       router.push('/(screens)/find-myrtille');
     } else {
-      router.push('/(screens)/monument-quiz');
+      // router.push('/(screens)/monument-quiz');
+      router.push('/(screens)/find-myrtille');
+
     }
   }
 

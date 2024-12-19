@@ -41,7 +41,9 @@
     "react-native-web": "~0.19.13",
     "react-native-webview": "13.12.5",
     "expo-camera": "~16.0.10",
-    "expo-screen-orientation": "~8.0.1"
+    "expo-screen-orientation": "~8.0.1",
+    "expo-file-system": "~18.0.6",
+    "expo-asset": "~11.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
