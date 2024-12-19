@@ -9,13 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.Myrtille"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "orientation": "portrait",
+      "package": "com.anonymous.Myrtille"
     },
     "web": {
       "bundler": "metro",
@@ -24,6 +27,12 @@
     },
     "plugins": [
       "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Autoriser $(PRODUCT_NAME) à accéder à votre caméra."
+        }
+      ],
       [
         "expo-splash-screen",
         {
